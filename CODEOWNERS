@@ -1,0 +1,6 @@
+# Infrastructure team owns everything
+* @kalyaneswar/infra-team
+
+# Security review for IAM changes
+modules/*/iam*.tf @kalyaneswar/security-team
+bootstrap/ @kalyaneswar/security-team
