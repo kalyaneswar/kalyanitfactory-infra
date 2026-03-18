@@ -80,9 +80,9 @@ resource "aws_iam_role" "github_actions_terraform" {
           # The :* at the end allows any branch/ref
           StringLike = {
             "token.actions.githubusercontent.com:sub" = [
-              "repo:YOUR_GITHUB_ORG/kalyanitfactory-infra:*",
-              "repo:YOUR_GITHUB_ORG/kalyanitfactory-app:*",
-              "repo:YOUR_GITHUB_ORG/kalyanitfactory-gitops:*"
+              "repo:kalyaneswar/kalyanitfactory-infra:*",
+              "repo:kalyaneswar/kalyanitfactory-app:*",
+              "repo:kalyaneswar/kalyanitfactory-gitops:*"
             ]
           }
         }
