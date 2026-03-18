@@ -262,7 +262,7 @@ resource "aws_iam_role_policy" "github_actions_terraform" {
         Resource = "arn:aws:ecr:us-east-1:480875380338:repository/kalyanitfactory/*"
       },
       # -----------------------------------------------------------------
-      # ROUTE53 & ACM PERMISSIONS
+      # AWS ROUTE53 & ACM PERMISSIONS
       # -----------------------------------------------------------------
       # For DNS and TLS certificate management
       {
